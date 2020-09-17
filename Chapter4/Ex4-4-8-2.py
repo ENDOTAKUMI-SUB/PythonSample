@@ -1,6 +1,5 @@
 temp = int(input('整数を入力してください >'))
 
-
 primes = []
 for n in range(2, temp + 1):
     for i in range(2, n):
