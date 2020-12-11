@@ -4,7 +4,3 @@ def eat(breakfast, lunch='ラーメン', dinner='カレー'):
     print('晩は{}を食べました'.format(dinner))
 
 eat('納豆ごはん', 'ラーメン', 'カレーうどん')
-
-eat(breakfast='納豆ごはん', dinner='カレーうどん') # 1
-eat(dinner='カレーうどん', breakfast='納豆ごはん') # 2
-eat('納豆ごはん', dinner='カレーうどん')           # 3
