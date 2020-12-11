@@ -6,5 +6,5 @@ def changeValue():
     global value 
     value = 20
 
-changeValue();
+changeValue()
 print("value=",value) # <--- はたしてこの値は?
