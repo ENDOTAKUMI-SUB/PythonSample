@@ -1,7 +1,7 @@
 # 印税を計算する関数 --- (*1)
 def calc_royalty(price, sales, per):
     rate = per / 100
-    ro = int(price * sales * rate)
+    ro = int(price * sales * rate) # 定価x販売部数x印税率
     return ro
 
 # ユーザーから情報を入力してもらう --- (*2)

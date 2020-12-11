@@ -1,6 +1,7 @@
 # スーパーの割引計算
 def calcValue(who, hour, count, value):
     '''あるスーパーの割引を計算する関数'''
+
     info = "割引なし"
 
     # 14 時に商品を 3 つ以上で 1 割引
@@ -21,3 +22,5 @@ def calcValue(who, hour, count, value):
 calcValue("A", 15, 3, 1200)
 calcValue("B", 14, 5, 2000)
 calcValue("C", 15, 8, 5400)
+
+# help(calcValue)
