@@ -69,7 +69,7 @@ is_game = True
 while is_game == True:
     # キー入力
     prediction = list()
-    for i in range(dgame_digits):
+    for i in range(game_digits):
         data = InputAnswer(i)
         prediction.append(data)
 
