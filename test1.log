@@ -1,0 +1,12 @@
+DEBUG:root:logfile open
+INFO:root:test info output
+WARNING:root:test warning output
+DEBUG:root:logfile open
+INFO:root:test info output
+WARNING:root:test warning output
+WARNING:root:test warning output : level = warning
+WARNING: 2021-02-15 13:07:01,205: test warning output
+WARNING: 2021-02-15 13:07:02,044: test warning output
+WARNING: 2021-02-15 13:07:02,345: test warning output
+WARNING: 2021-02-15 13:07:02,603: test warning output
+WARNING: 2021-02-15 13:07:03,495: test warning output

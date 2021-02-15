@@ -1,0 +1,7 @@
+ERROR:2021-02-15 13:11:50,577:test exception message
+Traceback (most recent call last):
+  File "/Users/endotakumi/OneDrive - 遠藤 拓巳/00_個人フォルダ/10_学校/1年次/2020_1_前期_プログラミング実習1/スキルアップ教科書/Chap8/ex05.py", line 9, in <module>
+    ret = devide(10, 0)
+  File "/Users/endotakumi/OneDrive - 遠藤 拓巳/00_個人フォルダ/10_学校/1年次/2020_1_前期_プログラミング実習1/スキルアップ教科書/Chap8/ex05.py", line 4, in devide
+    return x1 / x2
+ZeroDivisionError: division by zero
